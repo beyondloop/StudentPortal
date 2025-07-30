@@ -13,6 +13,7 @@ import {
   Users,
   Library,
   Settings,
+  Bus,
 } from "lucide-react";
 
 const navItems = [
@@ -38,6 +39,11 @@ const navItems = [
     icon: <Users size={18} />,
     children: ["Organization", "Campus Events"],
   },
+  {
+  label: "Transport",
+  icon: <Bus size={18} />,
+  children: ["Routes", "Assign Vehicle"],
+},
   { label: "Notifications", icon: <Bell size={18} /> },
   { label: "Library", icon: <Library size={18} /> },
   { label: "Messages", icon: <MessageSquare size={18} /> },
