@@ -84,7 +84,7 @@ const Sidebar = () => {
   return (
     <>
       {/* Mobile top bar with menu button */}
-      <div className="md:hidden bg-white shadow px-4 py-3 flex items-center justify-between">
+      <div className="md:hidden bg-white shadow px-4 py-3 flex items-center justify-between ">
         <div className="text-xl font-bold text-blue-600">PreSkool</div>
         <button onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
           {isSidebarOpen ? <X size={24} /> : <Menu size={24} />}
