@@ -1,5 +1,5 @@
 import React from "react";
-import Sidebar from "../components/Sidebar";
+
 import Header from "../components/Header";
 import StudentCard from "../Components/StudentCard";
 import AttendanceChart from "../components/AttendanceChart";
@@ -15,14 +15,12 @@ import NoticeBoard from "../components/NoticeBoard";
 import SyllabusProgress from "../Components/SyllabusProgress";
 import TodoList from "../Components/TodoList";
 import LeaveStatus from "../Components/LeaveStatus.";
+import Sidebar from "../Components/Sidebar";
 
 const StudentDashboard = () => {
   return (
-    <div className="flex bg-gray-100 min-h-screen">
-      <Sidebar />
-      <div className="flex-1 flex flex-col">
-        <Header />
-        <main className="p-4 space-y-4 overflow-y-auto">
+    <div>
+        <main className="p-4 space-y-4 overflow-y-auto ">
 
           {/* Responsive layout: StudentCard + TodayClass stacked; others follow */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
@@ -58,7 +56,6 @@ const StudentDashboard = () => {
           </div>
         </main>
       </div>
-    </div>
   );
 };
 

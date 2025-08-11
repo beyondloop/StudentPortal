@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 
 const navItems = [
-  { label: "Dashboard", icon: <Home size={18} /> },
+   { label: "Dashboard", icon: <Home size={18} />, route: "/" },
   { label: "Profile", icon: <User size={18} /> },
   {
     label: "Academic",
