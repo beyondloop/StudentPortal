@@ -93,7 +93,7 @@ const Sidebar = () => {
 
       {/* Sidebar */}
       <aside
-        className={`bg-white shadow-md px-4 py-6 fixed md:static top-0 left-0 h-full z-40 transform transition-transform duration-300 ease-in-out
+        className={`bg-white shadow-md px-4 py-6 fixed md:sticky top-0 left-0 h-full z-40 transform transition-transform duration-300 ease-in-out
         ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0 w-64`}
       >
         {/* Close button for mobile */}
